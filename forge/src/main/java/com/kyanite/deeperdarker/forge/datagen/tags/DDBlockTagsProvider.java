@@ -100,7 +100,7 @@ public class DDBlockTagsProvider extends BlockTagsProvider {
 
         tag(DDTags.Blocks.GLOOM_SCULK_REPLACEABLE).add(DDBlocks.GLOOM_SCULK.get(), DDBlocks.GLOOMSLATE.get(), DDBlocks.SCULK_STONE.get(), DDBlocks.INFESTED_SCULK.get(), DDBlocks.ECHO_SOIL.get(), Blocks.STONE, Blocks.DEEPSLATE, Blocks.SCULK);
 
-        tag(DDTags.Blocks.TRANSMITTABLE).add(Blocks.CHEST, Blocks.FURNACE, Blocks.BLAST_FURNACE, Blocks.BARREL, Blocks.SMOKER, Blocks.STONECUTTER);
+        tag(DDTags.Blocks.TRANSMITTABLE).add(Blocks.CHEST, Blocks.TRAPPED_CHEST, Blocks.FURNACE, Blocks.BLAST_FURNACE, Blocks.BARREL, Blocks.SMOKER, Blocks.HOPPER).addTags(BlockTags.SHULKER_BOXES);
     }
 
     @NotNull
